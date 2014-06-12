@@ -1,0 +1,23 @@
+{
+  "name": "install-requires",
+  "version": "0.0.0",
+  "description": "Installs all missing dependencies require'd in your code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "install-requires": "bin/cmd.js"
+  },
+  "keywords": [
+    "npm",
+    "install",
+    "dependencies",
+    "require"
+  ],
+  "author": "Sean West",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^4.1.10",
+    "installify": "^0.1.1"
+  }
+}
