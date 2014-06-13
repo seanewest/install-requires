@@ -2,7 +2,7 @@
 
 **Warning: this module is currently in a dirty-hack stage.**
 
-Install all dependencies require'd within your JS code without needing a package.json.
+Install all dependencies require'd within your JS code without needing a package.json. Intended for quick and dirty prototyping.
 
 ## Why?
 * Copy and paste code and run it (almost) immediately.
@@ -11,7 +11,7 @@ Install all dependencies require'd within your JS code without needing a package
 
 ## Installation
 ```
-npm install -g seanewest/install-requires
+npm install -g install-requires
 ```
 
 ## Usage
