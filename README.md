@@ -31,11 +31,4 @@ install-requires mycode.js mycode2.js mycode3.js
 * don't be a dirty hack
 
 ## It's a dirty hack
-Currently this abuses [browserify](https://github.com/substack/node-browserify) and [installify](https://github.com/hughsk/installify) to get the job done. This should be written in a more dignified way, but works as is for now. Here's the entire code:
-```bash
-#!/usr/bin/env bash
-
-echo 'installing missing dependencies...'
-browserify $@ -t installify > /dev/null
-echo 'install-requires complete'
-```
+Currently this abuses [browserify](https://github.com/substack/node-browserify) and [installify](https://github.com/hughsk/installify) to get the job done. This should be written in a more dignified way, but works as is for now.
