@@ -11,10 +11,6 @@ var files = args.map(function (arg) {
 	return path.resolve(cwd, arg);
 });
 
-console.log('installing dependencies...');
-
 var b = browserify(files);
 b.transform('installify');
 b.bundle();
-
-console.log('done')
